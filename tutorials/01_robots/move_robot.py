@@ -78,7 +78,7 @@ class Test():
                     world.reset()
             
             # Control your robot
-            vel = torch.tensor([[20., 10.]])
+            vel = torch.tensor([[10., 10.]])
             self.robot.set_joint_velocities(vel)
             
             if i % 100 == 0: 
