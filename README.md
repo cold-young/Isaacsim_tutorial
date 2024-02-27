@@ -12,6 +12,9 @@ Contributor: [Chanyoung Ahn](https://github.com/cold-young)
 **IsaacSim tutorial** is Isaacsim examples for KAIST RIRO Lab member or everyone.  
 I provides various examples for creating and manipulating customized assets/robots.
 
+- **Supplymentary files**: [Tutorial_DAY1 (KOR)](https://drive.google.com/file/d/1TtW2xgF41CknZzR0cW_nWjrUoT75iXrx/view?usp=sharing)
+
+
 ## Requirement
 To set a PYTHON_PATH variable in the terminal that links to the python executable, we can run a command that resembles the following. Make sure to update the paths to your local path.
 
@@ -42,12 +45,16 @@ PYTHON_PATH tutorials/00_assets/spawn_scene.py
 PYTHON_PATH tutorials/01_robots/move_robot.py
 ```
 
-## 2DAY - Use Sensors 
+## TODO
+#### Sensors
+- Use wrist camera on robot arm
 
-## 2DAY - Create RL environment in NVIDIA ORBIT
+#### NVIDIA ORBIT
+- How Add new task? 
+- Respawn deformed object using 'Soft_Object' class - (pcd spawn)
+- Data collect from RGB-D camera(RGB, Depth, Point cloud..)
 
 ## Acknowledgement
-
 NVIDIA Isaac Sim is available freely under [individual license](https://www.nvidia.com/en-us/omniverse/download/). For more information about its license terms, please check [here](https://docs.omniverse.nvidia.com/app_isaacsim/common/NVIDIA_Omniverse_License_Agreement.html#software-support-supplement).
 
 This tutorial package is released under [MIT License](LICENSE).
