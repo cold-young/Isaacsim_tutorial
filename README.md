@@ -2,7 +2,7 @@
 
 # Isaacsim tutorial 
 
-[![IsaacSim](https://img.shields.io/badge/IsaacSim-2023.1.0--hotfix.1-silver.svg)](https://docs.omniverse.nvidia.com/isaacsim/latest/overview.html)
+[![IsaacSim](https://img.shields.io/badge/IsaacSim-4.2.0-silver.svg)](https://docs.omniverse.nvidia.com/isaacsim/latest/overview.html)
 [![Python](https://img.shields.io/badge/python-3.10-blue.svg)](https://docs.python.org/3/whatsnew/3.10.html)
 [![Linux platform](https://img.shields.io/badge/platform-linux--64-orange.svg)](https://releases.ubuntu.com/20.04/)
 
@@ -10,7 +10,7 @@
 Contributor: [Chanyoung Ahn](https://github.com/cold-young) 
 
 **IsaacSim tutorial** is Isaacsim examples for KAIST RIRO Lab member or everyone.  
-I provides various examples for creating and manipulating customized assets/robots.
+I provide various examples for creating and manipulating customized assets/robots.
 
 - **Supplymentary files**: [Tutorial_DAY1 (KOR)](https://drive.google.com/file/d/1TtW2xgF41CknZzR0cW_nWjrUoT75iXrx/view?usp=sharing)
 
@@ -20,7 +20,7 @@ To set a PYTHON_PATH variable in the terminal that links to the python executabl
 
 ```shell
 # For Linux: 
-alias PYTHON_PATH=~/.local/share/ov/pkg/isaac_sim-*/python.sh
+alias PYTHON_PATH=~/.local/share/ov/pkg/isaac-sim-*/python.sh
 ```
 
 ### Run Examples 
@@ -49,7 +49,7 @@ PYTHON_PATH tutorials/01_robots/move_robot.py
 #### Sensors
 - Use wrist camera on robot arm
 
-#### NVIDIA ORBIT
+#### NVIDIA ORBIT > Isaac Lab
 - How Add new task? 
 - Respawn deformed object using 'Soft_Object' class - (pcd spawn)
 - Data collect from RGB-D camera(RGB, Depth, Point cloud..)
