@@ -23,6 +23,12 @@ To set a PYTHON_PATH variable in the terminal that links to the python executabl
 alias PYTHON_PATH=~/.local/share/ov/pkg/isaac-sim-*/python.sh
 ```
 
+```shell
+# Install other package in isaacsim environment
+PYTHON_PATH -m pip install ## 
+```
+* But, Please install other package in your virtual environment like conda.
+
 ### Run Examples 
 ```shell
 # For Run:
