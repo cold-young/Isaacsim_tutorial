@@ -1,0 +1,1 @@
+## This folder contains previous tutorials for Isaac Sim 4.2.0!
