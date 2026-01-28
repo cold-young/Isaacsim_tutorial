@@ -37,7 +37,7 @@ This tutorial shows how to 1) `add` your own URDF file with Isaac Sim 2) `valida
     <img src="../img/t1_8.gif" alt="t1_8" width="100%" />
 
 
-# 2. Check Robot Collsiion Mesh
+# 2. Check Robot Collsion Mesh
 1. Turn on collision mesh view
     * Eye Icon > Show By Type > Physics > Colliders > All
     <img src="../img/t1_9.png" alt="t1_9" width="100%" />
