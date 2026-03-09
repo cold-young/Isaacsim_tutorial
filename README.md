@@ -18,6 +18,8 @@ Contributor: [Chanyoung Ahn](https://github.com/cold-young)
 0. Make your own virtual environment (optional but recommended)
 
 	```shell
+    pip install --upgrade pip
+
 	conda create -n [ENV] python=3.11 -y
 	conda activate [ENV]
 	pip install torch==2.7.0 torchvision==0.22.0 --index-url https://download.pytorch.org/whl/cu128
@@ -30,6 +32,32 @@ Contributor: [Chanyoung Ahn](https://github.com/cold-young)
     # Varifying the Isaac Sim installation
     isaacsim
     ```
+
+### Install IsaacLab
+ * Check Official Repo: [Isaaclab](https://github.com/isaac-sim/IsaacLab/tree/release/2.3.0)
+
+```shell
+# Clone IsaacLab
+git clone git@github.com:isaac-sim/IsaacLab.git
+
+# Install Libraries
+./isaaclab.sh -i
+```
+
+### Varifying the Isaac Lab Installation
+```shell
+# Option 1: Using the isaaclab.sh executable
+# note: this works for both the bundled python and the virtual environment
+./isaaclab.sh -p scripts/tutorials/00_sim/create_empty.py
+
+# Option 2: Using python in your virtual environment
+python scripts/tutorials/00_sim/create_empty.py
+```
+
+### Test Initial RL Task 
+```shell
+./isaaclab.sh -p scripts/reinforcement_learning/rsl_rl/train.py --task=Isaac-Ant-v0 --headless
+```
 
 ## Tutorials
 * Add your urdf with Isaac Sim GUI: [[Link]](./docs/Add_your_urdf.md)
